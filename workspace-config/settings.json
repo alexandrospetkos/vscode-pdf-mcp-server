@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pdf-viewer": {
+      "command": "node",
+      "args": ["/absolute/path/to/vscode-pdf-mcp-server/build/index.js"]
+    }
+  }
+}
