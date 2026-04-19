@@ -8,5 +8,5 @@ esbuild.build({
 	minify: production,
 	sourcemap: !production,
 	platform: 'node',
-	outfile: 'dist/index.js',
+	outfile: 'build/index.js',
 }).catch(() => process.exit(1));
